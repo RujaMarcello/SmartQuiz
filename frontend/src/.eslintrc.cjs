@@ -18,7 +18,7 @@ module.exports = {
         ecmaFeatures: {
           jsx: true,
         },
-        ecmaVersion: 12,
+        ecmaVersion: 'latest',
         sourceType: 'module',
       },
     },
@@ -31,5 +31,12 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': ['warn', { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
     'prettier/prettier': 'error',
+    'react/function-component-definition': [
+      'error',
+      {
+        namedComponents: 'arrow-function',
+        unnamedComponents: 'arrow-function',
+      },
+    ],
   },
 };
