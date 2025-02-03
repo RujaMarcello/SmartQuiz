@@ -1,5 +1,11 @@
-import './App.css';
+import DefaultLayout from './layouts/DefaultLayout/index.tsx';
 
-const App = () => <div>Project</div>;
+const App = () => (
+  <div>
+    <DefaultLayout>
+      <div>test</div>
+    </DefaultLayout>
+  </div>
+);
 
 export default App;
