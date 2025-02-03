@@ -1,5 +1,4 @@
-import "./App.css";
-import DefaultLayout from "./layouts/DefaultLayout/index.tsx";
+import DefaultLayout from './layouts/DefaultLayout/index.tsx';
 
 const App = () => (
   <div>

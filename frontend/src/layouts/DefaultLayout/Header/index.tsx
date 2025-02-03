@@ -1,9 +1,10 @@
-import { IoIosNotifications, IoIosAdd } from "react-icons/io";
-import logo from "../../../assets/logo.png";
+import { IoIosNotifications, IoIosAdd } from 'react-icons/io';
+import logo from '../../../assets/logo.png';
 
 const Header = () => (
-  <div className="min-w-full justify-between flex absolute top-0 p-2">
-    <div>
+  <div className="min-w-full justify-between flex absolute top-0 px-5">
+    {/* fix for logo */}
+    <div className="-ms-2">
       <img src={logo} alt="logo" className="w-40" />
     </div>
     <div className="flex gap-3 items-center justify-center">
